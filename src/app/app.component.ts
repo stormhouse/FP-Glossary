@@ -4,7 +4,7 @@ import { HighlightService } from './highlight.service';
 @Component({
   selector: 'app-root',
   template: `<main>
-<app-comonad></app-comonad>
+<app-functor></app-functor>
 </main>`,
   styleUrls: ['./app.component.scss']
 })
