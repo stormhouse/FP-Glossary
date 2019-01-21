@@ -39,6 +39,7 @@ import { OptionComponent } from './jargon/option/option.component';
 import { FunctionComponent } from './jargon/function/function.component';
 import { PartialFunctionComponent } from './jargon/partial-function/partial-function.component';
 import { PartialApplicationComponent } from './jargon/partial-application/partial-application.component';
+import { ClosureComponent } from './jargon/closure/closure.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { PartialApplicationComponent } from './jargon/partial-application/partia
     ArityComponent,
     HofComponent,
     CurryingComponent,
+    ClosureComponent,
     AutoCurryingComponent,
     FunctionCompositionComponent,
     ContinuationComponent,

@@ -1,4 +1,4 @@
-# FP Jargon Chrome Extension
+# Functional programming jargon Chrome Extension
 A chrome extension which will teach you functional programming jargon when you open a new tab.
 
 Get it here: [Chrome Web Store](https://chrome.google.com/webstore/category/extensions)
