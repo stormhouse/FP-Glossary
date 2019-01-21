@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-continuation',
-  templateUrl: './continuation.component.html',
-  styleUrls: ['./continuation.component.scss']
+  template: `
+
+`
 })
-export class ContinuationComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class ContinuationComponent {
 }

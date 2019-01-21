@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-side-effects',
-  templateUrl: './side-effects.component.html',
-  styleUrls: ['./side-effects.component.scss']
+  template: `
+
+`
 })
-export class SideEffectsComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class SideEffectsComponent {
 }

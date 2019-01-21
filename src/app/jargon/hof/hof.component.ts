@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-hof',
-  templateUrl: './hof.component.html',
-  styleUrls: ['./hof.component.scss']
+  template: `
+
+`
 })
-export class HofComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class HofComponent {
 }

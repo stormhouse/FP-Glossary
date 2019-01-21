@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-pointed-functor',
-  templateUrl: './pointed-functor.component.html',
-  styleUrls: ['./pointed-functor.component.scss']
+  template: `
+
+`
 })
-export class PointedFunctorComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class PointedFunctorComponent {
 }

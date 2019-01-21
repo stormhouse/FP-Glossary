@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-lambda-calculus',
-  templateUrl: './lambda-calculus.component.html',
-  styleUrls: ['./lambda-calculus.component.scss']
+  template: `
+
+`
 })
-export class LambdaCalculusComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class LambdaCalculusComponent {
 }

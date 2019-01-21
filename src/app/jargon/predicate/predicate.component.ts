@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-predicate',
-  templateUrl: './predicate.component.html',
-  styleUrls: ['./predicate.component.scss']
+  template: `
+
+`
 })
-export class PredicateComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class PredicateComponent {
 }

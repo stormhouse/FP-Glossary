@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-lambda',
-  templateUrl: './lambda.component.html',
-  styleUrls: ['./lambda.component.scss']
+  template: `
+
+`
 })
-export class LambdaComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class LambdaComponent {
 }

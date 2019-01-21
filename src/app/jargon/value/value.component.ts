@@ -1,15 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-value',
-  templateUrl: './value.component.html',
-  styleUrls: ['./value.component.scss']
+  template: `
+
+`
 })
-export class ValueComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class ValueComponent { }

@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-functor',
-  templateUrl: './functor.component.html',
-  styleUrls: ['./functor.component.scss']
+  template: `
+
+`
 })
-export class FunctorComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class FunctorComponent {
 }

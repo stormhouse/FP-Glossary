@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-referential-transparency',
-  templateUrl: './referential-transparency.component.html',
-  styleUrls: ['./referential-transparency.component.scss']
+  template: `
+
+`
 })
-export class ReferentialTransparencyComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class ReferentialTransparencyComponent {
 }

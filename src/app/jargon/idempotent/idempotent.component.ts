@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-idempotent',
-  templateUrl: './idempotent.component.html',
-  styleUrls: ['./idempotent.component.scss']
+  template: `
+
+`
 })
-export class IdempotentComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class IdempotentComponent {
 }

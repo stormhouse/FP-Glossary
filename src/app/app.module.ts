@@ -3,10 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ArityComponent } from './jargon/arity/arity.component';
-import { HOFComponent } from './hof/hof.component';
-import { ClosureComponent } from './closure/closure.component';
 import { HofComponent } from './jargon/hof/hof.component';
-import { PartialComponent } from './jargon/partial/partial.component';
 import { CurryingComponent } from './jargon/currying/currying.component';
 import { AutoCurryingComponent } from './jargon/auto-currying/auto-currying.component';
 import { FunctionCompositionComponent } from './jargon/function-composition/function-composition.component';
@@ -24,20 +21,30 @@ import { FunctorComponent } from './jargon/functor/functor.component';
 import { PointedFunctorComponent } from './jargon/pointed-functor/pointed-functor.component';
 import { LiftComponent } from './jargon/lift/lift.component';
 import { ReferentialTransparencyComponent } from './jargon/referential-transparency/referential-transparency.component';
-import { JargoequationalReasoningComponent } from './jargoequational-reasoning/jargoequational-reasoning.component';
-import { EquationalReasoningComponent } from './jarn/equational-reasoning/equational-reasoning.component';
 import { LambdaComponent } from './jargon/lambda/lambda.component';
 import { LambdaCalculusComponent } from './jargon/lambda-calculus/lambda-calculus.component';
 import { LazyEvaluationComponent } from './jargon/lazy-evaluation/lazy-evaluation.component';
+import { MonoidComponent } from './jargon/monoid/monoid.component';
+import { MonadComponent } from './jargon/monad/monad.component';
+import { ComonadComponent } from './jargon/comonad/comonad.component';
+import { ApplicativeFunctorComponent } from './jargon/applicative-functor/applicative-functor.component';
+import { MorphismComponent } from './jargon/morphism/morphism.component';
+import { SetoidComponent } from './jargon/setoid/setoid.component';
+import { SemigroupComponent } from './jargon/semigroup/semigroup.component';
+import { FoldableComponent } from './jargon/foldable/foldable.component';
+import { LensComponent } from './jargon/lens/lens.component';
+import { TypeSignaturesComponent } from './jargon/type-signatures/type-signatures.component';
+import { AlgebraicDataTypeComponent } from './jargon/algebraic-data-type/algebraic-data-type.component';
+import { OptionComponent } from './jargon/option/option.component';
+import { FunctionComponent } from './jargon/function/function.component';
+import { PartialFunctionComponent } from './jargon/partial-function/partial-function.component';
+import { PartialApplicationComponent } from './jargon/partial-application/partial-application.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ArityComponent,
-    HOFComponent,
-    ClosureComponent,
     HofComponent,
-    PartialComponent,
     CurryingComponent,
     AutoCurryingComponent,
     FunctionCompositionComponent,
@@ -55,11 +62,24 @@ import { LazyEvaluationComponent } from './jargon/lazy-evaluation/lazy-evaluatio
     PointedFunctorComponent,
     LiftComponent,
     ReferentialTransparencyComponent,
-    JargoequationalReasoningComponent,
-    EquationalReasoningComponent,
     LambdaComponent,
     LambdaCalculusComponent,
-    LazyEvaluationComponent
+    LazyEvaluationComponent,
+    MonoidComponent,
+    MonadComponent,
+    ComonadComponent,
+    ApplicativeFunctorComponent,
+    MorphismComponent,
+    SetoidComponent,
+    SemigroupComponent,
+    FoldableComponent,
+    LensComponent,
+    TypeSignaturesComponent,
+    AlgebraicDataTypeComponent,
+    OptionComponent,
+    FunctionComponent,
+    PartialFunctionComponent,
+    PartialApplicationComponent
   ],
   imports: [
     BrowserModule

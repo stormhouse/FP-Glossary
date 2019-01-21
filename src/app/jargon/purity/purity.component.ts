@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-purity',
-  templateUrl: './purity.component.html',
-  styleUrls: ['./purity.component.scss']
+  template: `
+
+`
 })
-export class PurityComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class PurityComponent {
 }

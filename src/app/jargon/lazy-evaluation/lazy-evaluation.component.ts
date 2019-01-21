@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-lazy-evaluation',
-  templateUrl: './lazy-evaluation.component.html',
-  styleUrls: ['./lazy-evaluation.component.scss']
+  template: `
+
+`
 })
-export class LazyEvaluationComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class LazyEvaluationComponent {
 }

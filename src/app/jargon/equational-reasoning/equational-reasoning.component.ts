@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-equational-reasoning',
-  templateUrl: './equational-reasoning.component.html',
-  styleUrls: ['./equational-reasoning.component.scss']
+  template: `
+
+`
 })
-export class EquationalReasoningComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class EquationalReasoningComponent {
 }

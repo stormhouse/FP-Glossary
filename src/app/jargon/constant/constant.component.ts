@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-constant',
-  templateUrl: './constant.component.html',
-  styleUrls: ['./constant.component.scss']
+  template: `
+
+`
 })
-export class ConstantComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class ConstantComponent {
 }

@@ -1,15 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-auto-currying',
-  templateUrl: './auto-currying.component.html',
-  styleUrls: ['./auto-currying.component.scss']
+  template: `
+
+`
 })
-export class AutoCurryingComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class AutoCurryingComponent { }
