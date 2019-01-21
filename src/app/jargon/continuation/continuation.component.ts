@@ -26,7 +26,7 @@ export class ContinuationComponent {
     '  // Continues program with data',
     '}',
     '',
-    'readFileAsync('path / to / file', (err, response) => {',
+    "readFileAsync('path / to / file', (err, response) => {",
     '  if (err) {',
     '    // handle error',
     '    return',
