@@ -57,6 +57,12 @@ h1 {
     margin-bottom: 15px;
 }
 
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
 p {
     font-size: 18px;
     line-height: 1.6;
@@ -67,6 +73,10 @@ p {
 
 pre {
     border-radius: 2px !important;
+    margin: 15px 0 !important;
+    code {
+        letter-spacing: 0.03rem;
+    }
 }
 
 ol {
