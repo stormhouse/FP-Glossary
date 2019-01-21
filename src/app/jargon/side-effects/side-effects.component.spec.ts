@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ArityComponent } from './arity.component';
+import { SideEffectsComponent } from './side-effects.component';
 
-describe('ArityComponent', () => {
-  let component: ArityComponent;
-  let fixture: ComponentFixture<ArityComponent>;
+describe('SideEffectsComponent', () => {
+  let component: SideEffectsComponent;
+  let fixture: ComponentFixture<SideEffectsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ArityComponent ]
+      declarations: [ SideEffectsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ArityComponent);
+    fixture = TestBed.createComponent(SideEffectsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

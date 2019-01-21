@@ -51,4 +51,21 @@ html, body {
     background: #f9f9f9;
 }
 
+h1 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
 @import "~prismjs/themes/prism-okaidia";
+
+pre {
+    border-radius: 2px !important;
+}
+
