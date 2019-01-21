@@ -1,0 +1,15 @@
+{
+  “manifest_version”: 2,
+  “name”: “FP Jargon”,
+  “description”: “Learn functional programming, one tab at a time.”,
+  “version”: “1”,
+  “author”: "Olle Linderos”,
+  "browser_action": {
+    "default_icon": "tab-icon.png",
+    “default_title”: “FP Jargon”
+  },
+  “chrome_url_overrides”: {
+   “newtab”: “newtab.html”
+  },
+  “permissions”: [“activeTab”]
+}
