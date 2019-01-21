@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
 `
 })
 export class LiftComponent {
-  private code_one: string = [
+  public code_one: string = [
     "const liftA2 = (f) => (a, b) => a.map(f).ap(b) // note it's `ap` and not `map`.",
     "",
     "const mult = a => b => a * b",
@@ -22,7 +22,7 @@ export class LiftComponent {
     "liftedMult([1, 2], [3]) // [3, 6]",
     "liftA2(a => b => a + b)([1, 2], [3, 4]) // [4, 5, 5, 6]"].join('\n');
 
-  private code_two: string = [
+  public code_two: string = [
     "const increment = (x) => x + 1",
     "",
     "lift(increment)([2]) // [3]",

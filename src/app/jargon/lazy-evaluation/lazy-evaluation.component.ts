@@ -10,14 +10,14 @@ import { Component } from '@angular/core';
 `
 })
 export class LazyEvaluationComponent {
-  private code_one: string = [
+  public code_one: string = [
     'const rand = function*() {',
     '  while (1 < 2) {',
     '    yield Math.random()',
     '  }',
     '}'].join('\n');
 
-  private code_two: string = [
+  public code_two: string = [
     'const randIter = rand()',
     'randIter.next() // Each execution gives a random value, expression is evaluated on need.'].join('\n');
 }

@@ -10,9 +10,9 @@ import { Component } from '@angular/core';
 `
 })
 export class SideEffectsComponent {
-  private code_one: string =
+  public code_one: string =
     'const differentEveryTime = new Date()';
 
-  private code_two: string =
+  public code_two: string =
     "console.log('IO is a side effect!')";
 }

@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 `
 })
 export class AutoCurryingComponent {
-  private code_one: string = [
+  public code_one: string = [
     'const add = (x, y) => x + y',
     '',
     'const curriedAdd = _.curry(add)',

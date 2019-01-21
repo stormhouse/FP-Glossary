@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
 `
 })
 export class PartialApplicationComponent {
-  private code_one: string = [
+  public code_one: string = [
     "// Helper to create partially applied functions",
     "// Takes a function and some arguments",
     "const partial = (f, ...args) =>",
@@ -29,6 +29,6 @@ export class PartialApplicationComponent {
     "",
     "fivePlus(4) // 9"].join('\n');
 
-  private code_two: string =
+  public code_two: string =
     'const add1More = add3.bind(null, 2, 3) // (c) => 2 + 3 + c';
 }

@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 `
 })
 export class MonadComponent {
-  private code_one: string = [
+  public code_one: string = [
     "// Implementation",
     "Array.prototype.chain = function (f) {",
     "  return this.reduce((acc, it) => acc.concat(f(it)), [])",

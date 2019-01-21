@@ -46,10 +46,10 @@ import { HighlightService } from './highlight.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements AfterViewChecked {
-  private hightlighted: boolean = false;
-  private current: number = Math.floor(Math.random() * 38);
+  public hightlighted: boolean = false;
+  public current: number = Math.floor(Math.random() * 38);
 
-  private isCurrent(i): boolean {
+  public isCurrent(i): boolean {
     if (this.current === i) return true;
   }
 

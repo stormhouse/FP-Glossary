@@ -11,12 +11,12 @@ import { Component } from '@angular/core';
 `
 })
 export class HofComponent {
-  private code_one: string =
+  public code_one: string =
     'const filter = (predicate, xs) => xs.filter(predicate)';
 
-  private code_two: string =
+  public code_two: string =
     'const is = (type) => (x) => Object(x) instanceof type';
 
-  private code_three: string =
+  public code_three: string =
     "filter(is(Number), [0, '1', 2, null]) // [0, 2]";
 }

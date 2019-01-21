@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 `
 })
 export class FunctionCompositionComponent {
-  private code_one: string = [
+  public code_one: string = [
     "const compose = (f, g) => (a) => f(g(a)) // Definition",
     "const floorAndToString = compose((val) => val.toString(), Math.floor) // Usage",
     "floorAndToString(121.212121) // '121'"].join('\n');

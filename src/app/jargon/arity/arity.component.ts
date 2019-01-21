@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 `
 })
 export class ArityComponent {
-  private code_one: string = [
+  public code_one: string = [
     'const sum = (a, b) => a + b ',
     '',
     'const arity = sum.length',

@@ -19,14 +19,14 @@ import { Component } from '@angular/core';
 `
 })
 export class AlgebraicDataTypeComponent {
-  private code_one: string = [
+  public code_one: string = [
     '// imagine that rather than sets here we have types that can only have these values',
     'const bools = new Set([true, false])',
     "const halfTrue = new Set(['half - true'])",
     '',
     '// The weakLogic type contains the sum of the values from bools and halfTrue',
     'const weakLogicValues = new Set([...bools, ...halfTrue])'].join('\n');
-  private code_two: string = [
+  public code_two: string = [
     '// point :: (Number, Number) -> {x: Number, y: Number}',
     'const point = (x, y) => ({ x, y })'].join('\n');
 }

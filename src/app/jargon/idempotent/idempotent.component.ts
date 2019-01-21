@@ -11,12 +11,12 @@ import { Component } from '@angular/core';
 `
 })
 export class IdempotentComponent {
-  private code_one: string =
+  public code_one: string =
     'f(f(x)) ≍ f(x)';
 
-  private code_two: string =
+  public code_two: string =
     'Math.abs(Math.abs(10))';
 
-  private code_three: string =
+  public code_three: string =
     'sort(sort(sort([2, 1])))';
 }

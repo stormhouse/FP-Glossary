@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "FP Jargon",
+  "name": "FP Glossary",
   "description": "Learn functional programming, one tab at a time.",
   "version": "1",
   "author": "Olle Linderos",

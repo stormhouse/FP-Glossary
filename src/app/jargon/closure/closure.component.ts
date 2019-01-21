@@ -15,16 +15,16 @@ import { Component } from '@angular/core';
 `
 })
 export class ClosureComponent {
-  private code_one: string = [
+  public code_one: string = [
     'const addTo = (x) => {',
     '  return (y) => {',
     '    return x + y',
     '  }',
     '}'].join('\n');
 
-  private code_two: string =
+  public code_two: string =
     'var addToFive = addTo(5)';
 
-  private code_three: string =
+  public code_three: string =
     'addToFive(3) // => 8';
 }

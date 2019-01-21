@@ -13,7 +13,7 @@ import { Component } from '@angular/core';
 `
 })
 export class ApplicativeFunctorComponent {
-  private code_one: string = [
+  public code_one: string = [
     '// Implementation',
     'Array.prototype.ap = function (xs) {',
     '  return this.reduce((acc, f) => acc.concat(xs.map(f)), [])',
@@ -21,7 +21,7 @@ export class ApplicativeFunctorComponent {
     '',
     '// Example usage',
     ';[(a) => a + 1].ap([1]) // [2]'].join('\n');
-  private code_two: string = [
+  public code_two: string = [
     '// Arrays that you want to combine',
     'const arg1 = [1, 3]',
     'const arg2 = [4, 5]',
@@ -30,7 +30,7 @@ export class ApplicativeFunctorComponent {
     'const add = (x) => (y) => x + y',
     '',
     'const partiallyAppliedAdds = [add].ap(arg1) // [(y) => 1 + y, (y) => 3 + y]',].join('\n');
-  private code_three: string =
+  public code_three: string =
     'partiallyAppliedAdds.ap(arg2) // [5, 6, 7, 8]'
 }
 

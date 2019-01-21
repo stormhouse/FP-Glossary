@@ -11,6 +11,6 @@ import { Component } from '@angular/core';
 `
 })
 export class ReferentialTransparencyComponent {
-  private code_one: string =
+  public code_one: string =
     "const greet = () => 'Hello World!'";
 }

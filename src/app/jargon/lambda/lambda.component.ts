@@ -13,16 +13,16 @@ import { Component } from '@angular/core';
 `
 })
 export class LambdaComponent {
-  private code_one: string = [
+  public code_one: string = [
     ';(function (a) {',
     '  return a + 1',
     '})',
     '',
     ';(a) => a + 1'].join('\n');
 
-  private code_two: string =
+  public code_two: string =
     ';[1, 2].map((a) => a + 1) // [2, 3]';
 
-  private code_three: string =
+  public code_three: string =
     'const add1 = (a) => a + 1';
 }

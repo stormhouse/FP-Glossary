@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 `
 })
 export class ValueComponent {
-  private code_one: string = [
+  public code_one: string = [
     "5",
     "Object.freeze({name: 'John', age: 30}) // The `freeze` function enforces immutability.",
     ";(a) => a",

@@ -15,17 +15,17 @@ import { Component } from '@angular/core';
 `
 })
 export class MorphismComponent {
-  private code_one: string = [
+  public code_one: string = [
     '// uppercase :: String -> String',
     'const uppercase = (str) => str.toUpperCase()',
     '',
     '// decrement :: Number -> Number',
     'const decrement = (x) => x - 1'].join('\n');
 
-  private code_two: string =
+  public code_two: string =
     '{x: 2, y: 3}';
 
-  private code_three: string = [
+  public code_three: string = [
     '// Providing functions to convert in both directions makes them isomorphic.',
     'const pairToCoords = (pair) => ({x: pair[0], y: pair[1]})',
     '',

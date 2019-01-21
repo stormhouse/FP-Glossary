@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 `
 })
 export class FunctionComponent {
-  private code_one: string = [
+  public code_one: string = [
     '// times2 :: Number -> Number',
     'const times2 = n => n * 2',
     '',

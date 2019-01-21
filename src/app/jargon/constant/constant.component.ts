@@ -12,10 +12,10 @@ import { Component } from '@angular/core';
 `
 })
 export class ConstantComponent {
-  private code_one: string = [
+  public code_one: string = [
     'const five = 5',
     "const john = Object.freeze({name: 'John', age: 30})"].join('\n');
 
-  private code_two: string =
+  public code_two: string =
     "john.age + five === ({name: 'John', age: 30}).age + (5)";
 }

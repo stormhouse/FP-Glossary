@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 `
 })
 export class SetoidComponent {
-  private code_one: string = [
+  public code_one: string = [
     "Array.prototype.equals = function (arr) {",
     "  const len = this.length",
     "  if (len !== arr.length) {",

@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 `
 })
 export class ContractsComponent {
-  private code_one: string = [
+  public code_one: string = [
     "// Define our contract : int -> in'",
     'const contract = (input) => {',
     "  if (typeof input === 'number') return true",

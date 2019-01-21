@@ -40,6 +40,7 @@ import { FunctionComponent } from './jargon/function/function.component';
 import { PartialFunctionComponent } from './jargon/partial-function/partial-function.component';
 import { PartialApplicationComponent } from './jargon/partial-application/partial-application.component';
 import { ClosureComponent } from './jargon/closure/closure.component';
+import { EquationalReasoningComponent } from './jargon/equational-reasoning/equational-reasoning.component';
 
 @NgModule({
   declarations: [
@@ -66,6 +67,7 @@ import { ClosureComponent } from './jargon/closure/closure.component';
     ReferentialTransparencyComponent,
     LambdaComponent,
     LambdaCalculusComponent,
+    EquationalReasoningComponent,
     LazyEvaluationComponent,
     MonoidComponent,
     MonadComponent,

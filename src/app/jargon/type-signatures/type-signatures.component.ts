@@ -14,7 +14,7 @@ import { Component } from '@angular/core';
 `
 })
 export class TypeSignaturesComponent {
-  private code_one: string = [
+  public code_one: string = [
     "// functionName :: firstArgType -> secondArgType -> returnType",
     "",
     "// add :: Number -> Number -> Number",
@@ -22,4 +22,12 @@ export class TypeSignaturesComponent {
     "",
     "// increment :: Number -> Number",
     "const increment = (x) => x + 1"].join('\n');
+
+  public code_two: string = [
+    '// call :: (a -> b) -> a -> b',
+    'const call = (f) => (x) => f(x)'].join('\n');
+
+  public code_three: string = [
+    '// map :: (a -> b) -> [a] -> [b]',
+    'const map = (f) => (list) => list.map(f)'].join('\n');
 }

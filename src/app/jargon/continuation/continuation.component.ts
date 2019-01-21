@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
 `
 })
 export class ContinuationComponent {
-  private code_one: string = [
+  public code_one: string = [
     'const printAsString = (num) => console.log(`Given ${num}`)',
     '',
     'const addOneAndContinue = (num, cc) => {',
@@ -21,7 +21,7 @@ export class ContinuationComponent {
     '',
     "addOneAndContinue(2, printAsString) // 'Given 3'"].join('\n');
 
-  private code_two: string = [
+  public code_two: string = [
     'const continueProgramWith = (data) => {',
     '  // Continues program with data',
     '}',

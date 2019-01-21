@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 `
 })
 export class CurryingComponent {
-  private code_one: string = [
+  public code_one: string = [
     'const sum = (a, b) => a + b',
     '',
     'const curriedSum = (a) => (b) => a + b',

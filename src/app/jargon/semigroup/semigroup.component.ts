@@ -9,6 +9,6 @@ import { Component } from '@angular/core';
 `
 })
 export class SemigroupComponent {
-  private code_one: string =
+  public code_one: string =
     ';[1].concat([2]) // [1, 2]';
 }

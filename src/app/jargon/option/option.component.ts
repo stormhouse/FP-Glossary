@@ -13,7 +13,7 @@ import { Component } from '@angular/core';
 `
 })
 export class OptionComponent {
-  private code_one: string = [
+  public code_one: string = [
     "// Naive definition",
     "",
     "const Some = (v) => ({",
@@ -38,7 +38,7 @@ export class OptionComponent {
     "// maybeProp :: (String, {a}) -> Option a",
     "const maybeProp = (key, obj) => typeof obj[key] === 'undefined' ? None() : Some(obj[key])"].join('\n');
 
-  private code_two: string = [
+  public code_two: string = [
     "// getItem :: Cart -> Option CartItem",
     "const getItem = (cart) => maybeProp('item', cart)",
     "",

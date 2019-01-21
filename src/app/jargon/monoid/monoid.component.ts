@@ -24,25 +24,25 @@ import { Component } from '@angular/core';
 `
 })
 export class MonoidComponent {
-  private code_one: string =
+  public code_one: string =
     '1 + 1 // 2';
 
-  private code_two: string =
+  public code_two: string =
     '1 + 0 // 1';
 
-  private code_three: string =
+  public code_three: string =
     '1 + (2 + 3) === (1 + 2) + 3 // true';
 
-  private code_four: string =
+  public code_four: string =
     ';[1, 2].concat([3, 4]) // [1, 2, 3, 4]';
 
-  private code_five: string =
+  public code_five: string =
     ';[1, 2].concat([]) // [1, 2]';
 
-  private code_six: string = [
+  public code_six: string = [
     'const identity = (a) => a',
     'const compose = (f, g) => (x) => f(g(x))'].join('\n');
 
-  private code_seven: string =
+  public code_seven: string =
     'compose(foo, identity) ≍ compose(identity, foo) ≍ foo';
 }

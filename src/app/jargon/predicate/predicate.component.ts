@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 `
 })
 export class PredicateComponent {
-  private code_one: string = [
+  public code_one: string = [
     "const predicate = (a) => a > 2",
     "",
     ";[1, 2, 3, 4].filter(predicate) // [3, 4]"].join('\n');

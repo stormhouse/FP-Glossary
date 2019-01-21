@@ -14,19 +14,19 @@ import { Component } from '@angular/core';
 `
 })
 export class PurityComponent {
-  private code_one: string = [
+  public code_one: string = [
     "const greet = (name) => `Hi, ${name}`",
     "",
     "greet('Brianne') // 'Hi, Brianne'"].join('\n');
 
-  private code_two: string = [
+  public code_two: string = [
     "window.name = 'Brianne'",
     "",
     "const greet = () => `Hi, ${window.name}`",
     "",
     "greet() // 'Hi, Brianne'"].join('\n');
 
-  private code_three: string = [
+  public code_three: string = [
     "let greeting",
     "",
     "const greet = (name) => {",

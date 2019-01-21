@@ -17,16 +17,16 @@ import { Component } from '@angular/core';
 `
 })
 export class FunctorComponent {
-  private code_one: string =
+  public code_one: string =
     'object.map(x => x) ≍ object';
 
-  private code_two: string =
+  public code_two: string =
     'object.map(compose(f, g)) ≍ object.map(g).map(f)';
 
-  private code_three: string =
+  public code_three: string =
     ';[1, 2, 3].map(x => x) // = [1, 2, 3]';
 
-  private code_four: string = [
+  public code_four: string = [
     'const f = x => x + 1',
     'const g = x => x * 2',
     '',

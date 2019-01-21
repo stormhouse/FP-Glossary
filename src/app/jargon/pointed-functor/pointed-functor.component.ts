@@ -10,6 +10,6 @@ import { Component } from '@angular/core';
 `
 })
 export class PointedFunctorComponent {
-  private code_one: string =
+  public code_one: string =
     'Array.of(1) // [1]';
 }

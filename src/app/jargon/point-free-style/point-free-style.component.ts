@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
 `
 })
 export class PointFreeStyleComponent {
-  private code_one: string = [
+  public code_one: string = [
     "// Given",
     "const map = (fn) => (list) => list.map(fn)",
     "const add = (a) => (b) => a + b",

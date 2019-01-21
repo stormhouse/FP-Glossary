@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 `
 })
 export class FoldableComponent {
-  private code_one: string = [
+  public code_one: string = [
     'const sum = (list) => list.reduce((acc, val) => acc + val, 0)',
     'sum([1, 2, 3]) // 6'].join('\n');
 }

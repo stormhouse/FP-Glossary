@@ -13,7 +13,7 @@ import { Component } from '@angular/core';
 `
 })
 export class ComonadComponent {
-  private code_one: string = [
+  public code_one: string = [
     'const CoIdentity = (v) => ({',
     '  val: v,',
     '  extract () {',
@@ -24,9 +24,9 @@ export class ComonadComponent {
     '  }',
     '})'].join('\n');
 
-  private code_two: string =
+  public code_two: string =
     'CoIdentity(1).extract() // 1';
 
-  private code_three: string =
+  public code_three: string =
     'CoIdentity(1).extend((co) => co.extract() + 1) // CoIdentity(2)';
 }

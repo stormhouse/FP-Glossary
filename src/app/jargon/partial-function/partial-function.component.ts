@@ -13,7 +13,7 @@ import { Component } from '@angular/core';
 `
 })
 export class PartialFunctionComponent {
-  private code_one: string = [
+  public code_one: string = [
     "// example 1: sum of the list",
     "// sum :: [Number] -> Number",
     "const sum = arr => arr.reduce((a, b) => a + b)",
@@ -39,7 +39,7 @@ export class PartialFunctionComponent {
     "times(-1)(console.log)",
     "// RangeError: Maximum call stack size exceeded"].join('\n');
 
-  private code_two: string = [
+  public code_two: string = [
     "// example 1: sum of the list",
     "// we can provide default value so it will always return result",
     "// sum :: [Number] -> Number",
