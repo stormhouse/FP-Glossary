@@ -49,8 +49,8 @@ export class AppComponent implements AfterViewChecked {
   public hightlighted: boolean = false;
   public current: number = Math.floor(Math.random() * 38);
 
-  public isCurrent(i): boolean {
-    if (this.current === i) return true;
+  public isCurrent(i: number): boolean {
+    if (this.current === i) { return true; }
   }
 
   constructor(private highlightService: HighlightService) { }
