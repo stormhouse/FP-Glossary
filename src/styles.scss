@@ -1,4 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -58,9 +62,9 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 700;
-    margin: 15px 0;
+    margin: 30px 0 15px;
 }
 
 p {

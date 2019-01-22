@@ -10,3 +10,4 @@ describe('HighlightService', () => {
     expect(service).toBeTruthy();
   });
 });
+

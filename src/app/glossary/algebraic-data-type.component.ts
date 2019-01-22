@@ -26,6 +26,7 @@ export class AlgebraicDataTypeComponent {
     '',
     '// The weakLogic type contains the sum of the values from bools and halfTrue',
     'const weakLogicValues = new Set([...bools, ...halfTrue])'].join('\n');
+
   public code_two: string = [
     '// point :: (Number, Number) -> {x: Number, y: Number}',
     'const point = (x, y) => ({ x, y })'].join('\n');

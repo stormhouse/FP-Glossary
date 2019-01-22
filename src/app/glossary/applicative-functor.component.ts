@@ -21,6 +21,7 @@ export class ApplicativeFunctorComponent {
     '',
     '// Example usage',
     ';[(a) => a + 1].ap([1]) // [2]'].join('\n');
+
   public code_two: string = [
     '// Arrays that you want to combine',
     'const arg1 = [1, 3]',
@@ -30,6 +31,7 @@ export class ApplicativeFunctorComponent {
     'const add = (x) => (y) => x + y',
     '',
     'const partiallyAppliedAdds = [add].ap(arg1) // [(y) => 1 + y, (y) => 3 + y]',].join('\n');
+
   public code_three: string =
     'partiallyAppliedAdds.ap(arg2) // [5, 6, 7, 8]'
 }
