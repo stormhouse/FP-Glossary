@@ -1,7 +1,7 @@
 # FP Glossary
 A chrome extension which will teach you functional programming jargon when you open a new tab.
 
-Get it here: [Chrome Web Store](https://chrome.google.com/webstore/category/extensions)
+Get it here: [Chrome Web Store](https://chrome.google.com/webstore/detail/fp-glossary/obpfhldnajhljamlbojkadhjnjbbifpj)
 
 ## Development
 Run `ng serve` to run app. Run `sh build.sh` to build the chrome extension.
