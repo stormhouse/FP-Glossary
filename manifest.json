@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "FP Glossary",
   "description": "Learn functional programming, one tab at a time.",
-  "version": "1",
+  "version": "2",
   "author": "Olle Linderos",
   "browser_action": {
     "default_icon": "tab-icon.png",
